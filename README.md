@@ -11,6 +11,8 @@ Simple C program to demonstrate how a message queue works with an ARQ bit. The p
 2. Navigate to app's root directory through terminal
 3. Compile program with command: `make`
 4. Run program with command: `make run`
+* Output is logged in server.txt
+* Clean object files and executables with command: `make clean`
 
 ### Design
 * Struct for message buffer, struct for client info
